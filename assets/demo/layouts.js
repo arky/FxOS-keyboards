@@ -83,8 +83,7 @@ var KeyboardLayouts = function(app) {
     to show case the diversity of the feature the keyboard app
     and IMEngine provided. */
   this.enabledLayouts =
-    ['en', 'el', 'es', 'fr', 'ko', 'vi-Typewriter', 'zh-Hans-Pinyin',
-      'zh-Hant-Zhuyin', 'bn-Avro', 'ru', 'ar', 'he', 'ta'].sort();
+    ['en', 'es' ].sort();
 
   this.currentLayout = undefined;
 
@@ -111,6 +110,9 @@ var KeyboardLayouts = function(app) {
   layouts.set('ff', 'Pulaar-Fulfulde');
   layouts.set('fr-Dvorak-bepo', 'Bépo');
   layouts.set('fr', 'Français');
+  layouts.set('ga', 'Gaeilge');
+  layouts.set('gd', 'Gàidhlig');
+  layouts.set('gv', 'Gaelg');
   layouts.set('he', 'עִבְרִית');
   layouts.set('hi', 'हिन्दी');
   layouts.set('hr', 'Hrvatski');
@@ -122,7 +124,6 @@ var KeyboardLayouts = function(app) {
   layouts.set('mk', 'Македонски');
   layouts.set('my', '\u1019\u103C\u1014\u103A\u1019\u102C'); /*မြန်မာ*/
   layouts.set('nb', 'Norsk');
-  layouts.set('nl', 'Nederlands');
   layouts.set('pl', 'Polski');
   layouts.set('pt-BR', 'Português');
   layouts.set('ro', 'Română');
